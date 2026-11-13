@@ -37,4 +37,4 @@
 | `bowl_design_storm` | `depression_bowl` | `design_storm` |
 | `bowl_light_rain` | `depression_bowl` | `light_rain` |
 
-情景文件只保存 id。本目录故意不附带淹没水深或干湿网格：那是后续演算单元的输出，不是样例输入。
+情景文件只保存 id。本目录故意不附带淹没水深或干湿网格：那是演算的输出，不是样例输入。用 `floodcast.predict_scenario` 可以在这些情景上算出水深。

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "floodcast"
 version = "0.1.0"
-description = "演示级洪水淹没预测：DEM 与降雨的领域模型（不含演算引擎）"
+description = "演示级洪水淹没预测：洼地蓄水演算（不含 HTTP API）"
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [

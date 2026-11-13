@@ -43,6 +43,7 @@ def test_readme_describes_later_units():
         "Vite",
         "Leaflet",
         "floodcast/engine",
+        "predict_scenario",
         "LOCAL",
         "bowl_design_storm",
     ):

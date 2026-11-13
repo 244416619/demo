@@ -1,7 +1,7 @@
-"""演示级洪水淹没预测的领域模型与合成样例。
+"""演示级洪水淹没预测：领域模型、合成样例和洼地蓄水演算。
 
-本包描述 DEM、降雨过程、淹没水深栅格和场景结果元数据。
-它不根据降雨计算水深。演算引擎、HTTP API 和地图界面属于后续单元。
+给定 DEM 和一场空间均匀的降雨，``predict`` 估计静水淹没水深。
+这不是率定过的二维水动力模型。HTTP API 和地图界面属于后续单元。
 """
 
 from importlib.metadata import PackageNotFoundError, version
@@ -16,6 +16,12 @@ from floodcast.domain import (
     ScenarioDocument,
     ScenarioResult,
     WetDryMask,
+)
+from floodcast.engine import (
+    InundationParameters,
+    InundationPrediction,
+    predict,
+    predict_scenario,
 )
 from floodcast.errors import DomainError, FixtureNotFound
 from floodcast.fixtures import (
@@ -44,6 +50,8 @@ __all__ = [
     "FixtureCatalog",
     "FixtureNotFound",
     "GridSpec",
+    "InundationParameters",
+    "InundationPrediction",
     "InundationRaster",
     "RainfallInterval",
     "RainfallSeries",
@@ -55,5 +63,7 @@ __all__ = [
     "load_dem",
     "load_rainfall",
     "load_scenario",
+    "predict",
+    "predict_scenario",
     "read_fixture_notes",
 ]
