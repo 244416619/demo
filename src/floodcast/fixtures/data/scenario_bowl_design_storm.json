@@ -1,0 +1,7 @@
+{
+  "scenario_id": "bowl_design_storm",
+  "name": "洼地设计暴雨",
+  "dem_id": "depression_bowl",
+  "rainfall_id": "design_storm",
+  "description": "把 50 mm 设计暴雨均匀降在合成洼地上。本仓库不计算淹没水深，结果要等后续演算单元填写。"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "light_rain",
+  "description": "2 小时均匀小雨，总雨量 2 mm。用来和设计暴雨对照，仍然不是观测记录。",
+  "distribution": "uniform",
+  "intervals": [
+    {"start_hours": 0.0, "end_hours": 0.5, "depth_mm": 0.5},
+    {"start_hours": 0.5, "end_hours": 1.0, "depth_mm": 0.5},
+    {"start_hours": 1.0, "end_hours": 1.5, "depth_mm": 0.5},
+    {"start_hours": 1.5, "end_hours": 2.0, "depth_mm": 0.5}
+  ]
+}

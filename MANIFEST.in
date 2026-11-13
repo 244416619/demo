@@ -1,0 +1,2 @@
+recursive-include src/floodcast/fixtures/data *
+include src/floodcast/py.typed

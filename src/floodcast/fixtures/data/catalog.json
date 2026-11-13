@@ -1,0 +1,14 @@
+{
+  "description": "合成样例，不是测量或率定数据。说明见同目录 README.md。",
+  "dems": {
+    "depression_bowl": "dem_depression_bowl.json"
+  },
+  "rainfall": {
+    "design_storm": "rain_design_storm.json",
+    "light_rain": "rain_light_rain.json"
+  },
+  "scenarios": {
+    "bowl_design_storm": "scenario_bowl_design_storm.json",
+    "bowl_light_rain": "scenario_bowl_light_rain.json"
+  }
+}

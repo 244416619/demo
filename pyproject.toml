@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "floodcast"
+version = "0.1.0"
+description = "演示级洪水淹没预测：DEM 与降雨的领域模型（不含演算引擎）"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+floodcast = ["py.typed", "fixtures/data/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
