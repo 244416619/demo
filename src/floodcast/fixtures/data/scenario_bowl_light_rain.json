@@ -3,5 +3,5 @@
   "name": "洼地小雨",
   "dem_id": "depression_bowl",
   "rainfall_id": "light_rain",
-  "description": "把 2 mm 小雨均匀降在同一块合成洼地上，便于以后对照两个情景。本仓库不计算淹没结果。"
+  "description": "把 2 mm 小雨均匀降在同一块合成洼地上，用来和设计暴雨对照。演算同样只做洼地蓄水。"
 }
