@@ -1,0 +1,13 @@
+{
+  "id": "design_storm",
+  "description": "3 小时合成设计暴雨，空间上均匀。雨峰在第 2 个小时，总雨量 50 mm。不是当地暴雨强度公式。",
+  "distribution": "uniform",
+  "intervals": [
+    {"start_hours": 0.0, "end_hours": 0.5, "depth_mm": 4.0},
+    {"start_hours": 0.5, "end_hours": 1.0, "depth_mm": 8.0},
+    {"start_hours": 1.0, "end_hours": 1.5, "depth_mm": 22.0},
+    {"start_hours": 1.5, "end_hours": 2.0, "depth_mm": 10.0},
+    {"start_hours": 2.0, "end_hours": 2.5, "depth_mm": 4.0},
+    {"start_hours": 2.5, "end_hours": 3.0, "depth_mm": 2.0}
+  ]
+}
